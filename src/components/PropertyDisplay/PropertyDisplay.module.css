@@ -1,0 +1,7 @@
+.property_display {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  grid-gap: 50px;
+  margin: 40px 55px 60px 55px;
+}

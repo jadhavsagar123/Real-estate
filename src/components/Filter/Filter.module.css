@@ -1,0 +1,32 @@
+.filter {
+  display: flex;
+  align-items: center;
+  margin: 0px 60px 0px 60px;
+  height: 70px;
+  padding: 20px;
+
+  background-color: rgb(232, 226, 226);
+}
+
+.button {
+  margin-left: 500px;
+  height: 50px;
+}
+
+.location {
+  margin-left: 20px;
+}
+
+.date {
+  margin-left: 60px;
+}
+.price {
+  margin-left: 60px;
+}
+.type {
+  margin-left: 60px;
+}
+
+.search {
+  margin: 0px 0px 22px 1050px;
+}

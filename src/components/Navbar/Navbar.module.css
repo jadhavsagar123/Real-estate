@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  margin: auto;
+  border: 2px solid rgb(80, 27, 205);
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(40, 77, 179);
+}
+
+.estatery {
+  color: white;
+  font-size: 25px;
+  margin: 0px 0px 5px 10px;
+}
+
+.buy {
+  color: white;
+  margin: 5px 0px 0px 25px;
+}
+
+.rent {
+  color: white;
+  margin: 5px 0px 0px 25px;
+}
+
+.manageproperty {
+  color: white;
+  margin: 5px 0px 0px 30px;
+}
+.resources {
+  color: white;
+  margin: 5px 0px 0px 30px;
+}
+
+.login {
+  margin: 5px 0px 0px 25px;
+  color: white;
+  margin-left: 1150px;
+}
+
+.signup {
+  margin: 5px 0px 0px 25px;
+  margin-left: 20px;
+}
+
+.favorite {
+  margin: 8px 0px 0px 25px;
+  font-style: none;
+  font-size: large;
+  color: white;
+}
