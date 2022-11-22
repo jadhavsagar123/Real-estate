@@ -38,7 +38,7 @@ const PropertyDisplay = ({ propData }) => {
   return (
     <>
       <div
-        // style={{ margin: '40px 0px 0px 55px' }}
+         style={{ marginTop: '2%' }}
         className={styles.property_display}
       >
         {property}

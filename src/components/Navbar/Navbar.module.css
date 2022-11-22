@@ -1,52 +1,107 @@
 .navbar {
   display: flex;
-  margin: auto;
+  /* margin: auto; */
+  flex-wrap: wrap;
+  justify-content: space-between;
   border: 2px solid rgb(80, 27, 205);
-  padding: 5px;
+  padding: 1%;
   position: sticky;
   top: 0;
   background-color: rgb(40, 77, 179);
+  overflow: auto;
 }
 
+.start {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  flex-wrap: wrap;
+}
 .estatery {
   color: white;
   font-size: 25px;
-  margin: 0px 0px 5px 10px;
+  /* margin: 0% 0% 1% 2%; */
+}
+
+.favorite {
+  font-style: none;
+  font-size: 20px;
+  color: white;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .buy {
   color: white;
-  margin: 5px 0px 0px 25px;
+  
+}
+.buy > button{
+  height: 40px;
+  width: 60px;
+  background-color: rgb(238, 232, 240);
+  border-radius: 10px;
 }
 
 .rent {
   color: white;
-  margin: 5px 0px 0px 25px;
 }
+
+.rent > button {
+  height: 40px;
+  width: 60px;
+  background-color: rgb(238, 232, 240);
+  border-radius: 10px;
+}
+
+.sell {
+  color: white; 
+}
+
+.sell > button{
+  height: 40px;
+  width: 60px;
+  background-color: rgb(238, 232, 240);
+  border-radius: 10px;
+}
+
 
 .manageproperty {
   color: white;
-  margin: 5px 0px 0px 30px;
+}
+
+.manageproperty > select {
+  height: 40px;
+  width: 130px;
+  background-color: rgb(238, 232, 240);
+  border-radius: 10px;
 }
 .resources {
   color: white;
-  margin: 5px 0px 0px 30px;
+}
+
+.resources > select {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(238, 232, 240);
+  border-radius: 10px;
 }
 
 .login {
-  margin: 5px 0px 0px 25px;
   color: white;
-  margin-left: 1150px;
 }
 
 .signup {
-  margin: 5px 0px 0px 25px;
-  margin-left: 20px;
-}
-
-.favorite {
-  margin: 8px 0px 0px 25px;
-  font-style: none;
-  font-size: large;
-  color: white;
+  color: rgb(255, 255, 255);
 }

@@ -47,12 +47,12 @@ const Favorites = () => {
     <>
       {favorite.length > 0 && (
         <div>
-          <h1 style={{ marginRight: '1300px' }}>Favorite list</h1>
+          <h1 style={{ alignItems: 'center' }}>Favorite list</h1>
         </div>
       )}
 
       {favorite.length > 0 && (
-        <div style={{ margin: '50px px 0px 40px' }} className={styles.favorite}>
+        <div  className={styles.favorite}>
           {favoriteProperty}
         </div>
       )}

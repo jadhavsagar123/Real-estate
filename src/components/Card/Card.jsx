@@ -40,10 +40,10 @@ const Card = ({
   return (
     <>
       {id && (
-        <div className={styles.grid}>
+        <div className={styles.flex}>
           <article>
             <img
-              style={{ height: '200px', width: '350px' }}
+              style={{ height: '55%', width: '350px' }}
               src={image}
               alt='Sample'
             ></img>
@@ -66,10 +66,10 @@ const Card = ({
       )}
 
       {!id && (
-        <div className={styles.grid}>
+        <div className={styles.flex}>
           <article>
             <img
-              style={{ height: '200px', width: '350px' }}
+              style={{ height: '55%', width: '350px' }}
               src={image}
               alt='Sample'
             ></img>

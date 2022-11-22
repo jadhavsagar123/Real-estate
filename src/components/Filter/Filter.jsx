@@ -62,9 +62,7 @@ const Filter = () => {
 
   return (
     <div>
-      <div className={styles.search}>
-        <SearchDropdown onSearchChangeHandler={onSearchChangeHandler} />
-      </div>
+     
       <div className={styles.filter}>
         <div className={styles.location}>
           Location
@@ -92,7 +90,14 @@ const Filter = () => {
           <div style={{ marginTop: '10px' }}>
             <PropertyDropdown selectPropertyHandler={selectPropertyHandler} />
           </div>
+          
         </div>
+        <div className={styles.search}>
+            Furnish Type
+            <div style={{ marginTop: '10px' }}>
+        <SearchDropdown onSearchChangeHandler={onSearchChangeHandler} />
+      </div>
+      </div>
 
         <div className={styles.button}>
           <button
