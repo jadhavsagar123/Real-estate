@@ -1,6 +1,6 @@
-.navbar {
+/* .navbar {
   display: flex;
-  /* margin: auto; */
+ 
   flex-wrap: wrap;
   justify-content: space-between;
   border: 2px solid rgb(80, 27, 205);
@@ -20,7 +20,7 @@
 .estatery {
   color: white;
   font-size: 25px;
-  /* margin: 0% 0% 1% 2%; */
+
 }
 
 .favorite {
@@ -104,4 +104,5 @@
 
 .signup {
   color: rgb(255, 255, 255);
-}
+}  */
+
