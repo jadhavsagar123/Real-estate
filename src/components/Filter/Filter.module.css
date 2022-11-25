@@ -4,9 +4,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 20%;
-  width: 100%;
+  width: 100vw;
   padding: 2%;
-  overflow: auto;
   background-color: rgb(232, 226, 226);
 }
 

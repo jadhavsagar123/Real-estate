@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <nav style={{ backgroundColor: "blue" }} className="navigation">
+    <nav style={{ backgroundColor: "grey",color: 'white' }} className="navigation">
       <NavLink to="/" className="brand-name">
         Estatery
       </NavLink>
@@ -52,6 +52,36 @@ export default function Navbar() {
           </li>
           <li>
             <a href="/#">Resources</a>
+          </li>
+          <li>
+          <button
+            style={{
+              backgroundColor: '#6777D3',
+              borderColor: '#6777D3',
+              color: 'white',
+              height: '40px',
+              width: '90px',
+              borderRadius: '5px',
+              fontSize: '18px',
+            }}
+          >
+            login
+          </button>
+          </li>
+          <li>
+          <button
+            style={{
+              backgroundColor: 'red',
+              borderColor: 'red',
+              color: 'white',
+              height: '40px',
+              width: '90px',
+              borderRadius: '5px',
+              fontSize: '18px',
+            }}
+          >
+            Signup
+          </button>
           </li>
         </ul>
       </div>

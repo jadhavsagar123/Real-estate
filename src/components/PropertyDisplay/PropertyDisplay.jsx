@@ -19,7 +19,7 @@ const PropertyDisplay = ({ propData }) => {
 
   const property = propData.map((el, index) => {
     return (
-      <div key={index}>
+      <div style={{marginBottom:'30px'}} key={index}>
         <Card
           area={el.address[0].toUpperCase() + el.address.slice(1)}
           price={el.price}
