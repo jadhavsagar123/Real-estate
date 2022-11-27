@@ -6,14 +6,14 @@
     height: 60px;
     width: 100vw;
     padding: 0.5rem 0rem;
-    background-color: rgb(19, 176, 204);
-    color: white;
+    background-color: rgb(232, 237, 238);
+    color:white;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   }
   
   .brand-name {
     text-decoration: none;
-    color: white;
+    color:rgb(20, 58, 228);
     font-size: 1.3rem;
     margin-left: 1rem;
   }
@@ -25,6 +25,7 @@
   .navigation-menu ul {
     display: flex;
     padding: 0;
+    flex-wrap: wrap;
   }
   
   .navigation-menu li {
@@ -32,11 +33,12 @@
     margin: 0 1rem;
   }
   
+ 
   .navigation-menu li a {
     text-decoration: none;
     display: block;
     width: 100%;
-    color: white;
+     color: black; 
     
   }
   
@@ -73,7 +75,7 @@
       left: 0;
       width: 100%;
       height: calc(100vh - 60px);
-      background-color: white;
+      background-color: rgb(15, 143, 228);
       border-top: 1px solid black;
       display: none;
     }
@@ -89,7 +91,7 @@
     }
   
     .navigation-menu li:hover {
-      background-color: #eee;
+      background-color: rgb(238, 238, 238);
     }
   
     .navigation-menu.expanded ul {

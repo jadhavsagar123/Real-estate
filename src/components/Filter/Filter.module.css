@@ -4,30 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 20%;
-  width: 100vw;
+  width: 96%;
   padding: 2%;
   background-color: rgb(232, 226, 226);
+  overflow: auto;
 }
 
- /* .button {
-  margin-left: 500px;
-  height: 50px;
-}
-
-.location {
-  margin-left: 20px;
-}
-
-.date {
-  margin-left: 60px;
-}
-.price {
-  margin-left: 60px;
-}
-.type {
-  margin-left: 60px;
-}
-
-.search {
-  margin: 0px 0px 22px 1050px;
-}  */
+ 

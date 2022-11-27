@@ -17,11 +17,6 @@ const Filter = () => {
   const [filterData, setFilterData] = useState(data);
   const [search, setSearch] = useState('furnished');
 
-  // console.log(type);
-  // console.log(date);
-  // console.log(price);
-  // console.log(location);
-  // console.log(search);
 
   const selectPropertyHandler = (e) => {
     setType(e.target.value);
@@ -47,6 +42,12 @@ const Filter = () => {
   const filterBtnHandler = () => {
     const priceFrom = price.split('-')[0];
     const priceTo = price.split('-')[1];
+    if(date === ''){
+      alert('please select move in date')
+    }
+    else if(priceFrom < 0 && priceTo < 0){
+      alert('please select price')
+    }else{
     const filterData = data.filter((el) => {
       return (
         el.price >= priceFrom &&
@@ -54,10 +55,11 @@ const Filter = () => {
         el.location === location.toLowerCase() &&
         el.propertyType === type &&
         el.availablefrom < date &&
-        el.furnishtype === search
-      );
+        el.furnishtype === search 
+      )
     });
     setFilterData(filterData);
+  }
   };
 
   return (

@@ -6,8 +6,12 @@ export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <nav style={{ backgroundColor: "grey",color: 'white' }} className="navigation">
+    <nav
+      style={{ backgroundColor: "rgb(232, 226, 226)" }}
+      className="navigation"
+    >
       <NavLink to="/" className="brand-name">
+        <i className="fa fa-home" aria-hidden="true"></i>
         Estatery
       </NavLink>
       <NavLink to="/favorites" className="brand-name">
@@ -23,7 +27,7 @@ export default function Navbar() {
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
           viewBox="0 0 20 20"
-          fill="white"
+          fill="blue"
         >
           <path
             fillRule="evenodd"
@@ -39,10 +43,10 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="/#">Buy</a>
+            <a href="/#">Rent</a>
           </li>
           <li>
-            <a href="/#">Rent</a>
+            <a href="/#">Buy</a>
           </li>
           <li>
             <a href="/#">Sell</a>
@@ -54,34 +58,34 @@ export default function Navbar() {
             <a href="/#">Resources</a>
           </li>
           <li>
-          <button
-            style={{
-              backgroundColor: '#6777D3',
-              borderColor: '#6777D3',
-              color: 'white',
-              height: '40px',
-              width: '90px',
-              borderRadius: '5px',
-              fontSize: '18px',
-            }}
-          >
-            login
-          </button>
+            <button
+              style={{
+                backgroundColor: "#6777D3",
+                borderColor: "#6777D3",
+                color: "white",
+                height: "40px",
+                width: "90px",
+                borderRadius: "5px",
+                fontSize: "18px",
+              }}
+            >
+              login
+            </button>
           </li>
           <li>
-          <button
-            style={{
-              backgroundColor: 'red',
-              borderColor: 'red',
-              color: 'white',
-              height: '40px',
-              width: '90px',
-              borderRadius: '5px',
-              fontSize: '18px',
-            }}
-          >
-            Signup
-          </button>
+            <button
+              style={{
+                backgroundColor: "red",
+                borderColor: "red",
+                color: "white",
+                height: "40px",
+                width: "90px",
+                borderRadius: "5px",
+                fontSize: "18px",
+              }}
+            >
+              Signup
+            </button>
           </li>
         </ul>
       </div>
