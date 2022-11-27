@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./navbar.css";
+import styles from './/Navbar.module.css';
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
@@ -8,17 +8,17 @@ export default function Navbar() {
   return (
     <nav
       style={{ backgroundColor: "rgb(232, 226, 226)" }}
-      className="navigation"
+      className={styles.navigation}
     >
-      <NavLink to="/" className="brand-name">
+      <NavLink to="/" className={styles.brandname}>
         <i className="fa fa-home" aria-hidden="true"></i>
         Estatery
       </NavLink>
-      <NavLink to="/favorites" className="brand-name">
+      <NavLink to="/favorites" className={styles.brandname}>
         Favorites
       </NavLink>
       <button
-        className="hamburger"
+        className={styles.hamburger}
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}
@@ -38,7 +38,7 @@ export default function Navbar() {
       </button>
       <div
         className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+          isNavExpanded ? styles.navigation_menu.expanded : styles.navigation_menu
         }
       >
         <ul>
