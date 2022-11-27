@@ -11,7 +11,7 @@ import SearchDropdown from '../Dropdown/SearchDropdown';
 
 const Filter = () => {
   const [location, setLocation] = useState('pune');
-  const [date, setDate] = useState();
+  const [date, setDate] = useState('');
   const [type, setType] = useState('houses');
   const [price, setPrice] = useState('');
   const [filterData, setFilterData] = useState(data);
@@ -45,10 +45,11 @@ const Filter = () => {
     if(date === ''){
       alert('please select move in date')
     }
-    else if(priceFrom < 0 && priceTo < 0){
+    else if(price == ''){
       alert('please select price')
     }else{
     const filterData = data.filter((el) => {
+     
       return (
         el.price >= priceFrom &&
         el.price <= priceTo &&

@@ -18,6 +18,9 @@
     margin-left: 1rem;
   }
   
+  .brand-name:active {
+     color: blueviolet;
+  }
   .navigation-menu {
     margin-left: auto;
   }
@@ -88,6 +91,10 @@
     .navigation-menu li a {
       width: 100%;
       padding: 1.5rem 0;
+    }
+
+    .navigation-menu li button {
+      margin-bottom: 20px;
     }
   
     .navigation-menu li:hover {

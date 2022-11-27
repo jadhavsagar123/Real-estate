@@ -13,5 +13,11 @@
 @media screen and (max-width: 768px) {
   .filter {
   flex-direction: column;
+  justify-content: space-evenly;
   }
+
+  .button {
+    margin-top: 20px
+  }
+
 }
