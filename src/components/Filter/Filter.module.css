@@ -10,6 +10,12 @@
   overflow: auto;
 }
 
+div Input {
+  height: 28px;
+    width: 100px;
+    color: rgb(164, 8, 236);
+}
+
 @media screen and (max-width: 768px) {
   .filter {
   flex-direction: column;

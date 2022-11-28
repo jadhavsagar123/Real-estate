@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Navbar.css';
+import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
@@ -8,13 +8,14 @@ export default function Navbar() {
   return (
     <nav
       style={{ backgroundColor: "rgb(232, 226, 226)" }}
-      className='navigation'
+      className="navigation"
     >
       <NavLink to="/" className="brand-name">
         <i className="fa fa-home" aria-hidden="true"></i>
         Estatery
       </NavLink>
       <NavLink to="/favorites" className="brand-name">
+        <i class="fa-solid fa-heart"></i>
         Favorites
       </NavLink>
       <button
@@ -42,8 +43,17 @@ export default function Navbar() {
         }
       >
         <ul>
-          <li>
-            <a href="/#">Rent</a>
+          <li className="activeCss">
+            <NavLink
+              to="/"
+              style={({ isActive }) => ({
+                color: isActive ? "#7600dc" : 'black',
+                background: isActive ? "white" : "inherit",
+              })}
+             
+            >
+              Rent
+            </NavLink>
           </li>
           <li>
             <a href="/#">Buy</a>

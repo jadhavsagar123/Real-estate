@@ -48,8 +48,9 @@ const Card = ({
               alt='Sample'
             ></img>
             <div className={styles.text}>
-              <h3>{area}</h3>
+              
               <p>{price}/Month</p>
+              <h3>{area}</h3>
               <p>{description}</p>
               <button
                 disabled={disabled}
@@ -74,8 +75,9 @@ const Card = ({
               alt='Sample'
             ></img>
             <div className={styles.text}>
-              <h3>{area}</h3>
+              
               <p>{price}/Month</p>
+              <h3>{area}</h3>
               <p>{description}</p>
               <button disabled={disabled} onClick={btnClickHandler}>
                 {btnText}

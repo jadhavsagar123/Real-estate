@@ -1,0 +1,10 @@
+.dropdown select{
+    height: 30px;
+    width: 100px;
+    color: rgb(164, 8, 236);
+}
+
+.dropdown{
+    background-color: white;
+}
+
